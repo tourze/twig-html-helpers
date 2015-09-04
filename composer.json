@@ -1,8 +1,8 @@
 {
-    "name": "njh/twig-html-helpers",
+    "name": "tourze/twig-html-helpers",
     "description": "Rails style view helpers for HTML tags in PHP Twig",
     "keywords": ["twig","html","tag"],
-    "homepage": "https://github.com/njh/twig-html-helpers",
+    "homepage": "https://github.com/tourze/twig-html-helpers",
     "type": "library",
     "license": "MIT",
     "authors": [
