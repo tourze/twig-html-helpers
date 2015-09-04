@@ -1,25 +1,36 @@
 {
-    "name": "tourze/twig-html-helpers",
-    "description": "Rails style view helpers for HTML tags in PHP Twig",
-    "keywords": ["twig","html","tag"],
-    "homepage": "https://github.com/tourze/twig-html-helpers",
-    "type": "library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Nicholas Humfrey",
-            "email": "njh@aelius.com",
-            "homepage": "http://www.aelius.com/njh/"
-        }
-    ],
-    "require": {
-        "php": ">=5.2.4",
-        "twig/twig": "1.*"
+  "name": "tourze/twig-html-helpers",
+  "description": "Rails style view helpers for HTML tags in PHP Twig",
+  "keywords": [
+    "twig",
+    "html",
+    "tag"
+  ],
+  "homepage": "https://github.com/tourze/twig-html-helpers",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Nicholas Humfrey",
+      "email": "njh@aelius.com",
+      "homepage": "http://www.aelius.com/njh/"
     },
-    "require-dev": {
-        "phpunit/PHPUnit": ">=3.5.15"
-    },
-    "autoload": {
-        "psr-0": { "Twig_Extension_HTMLHelpers": "lib/" }
+    {
+      "name": "tourze",
+      "email": "dev@tourze.com",
+      "homepage": "http://dev.tourze.com/"
     }
+  ],
+  "require": {
+    "php": ">=5.2.4",
+    "twig/twig": "1.*"
+  },
+  "require-dev": {
+    "phpunit/PHPUnit": ">=3.5.15"
+  },
+  "autoload": {
+    "psr-0": {
+      "Twig_Extension_HTMLHelpers": "lib/"
+    }
+  }
 }
