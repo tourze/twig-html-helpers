@@ -7,7 +7,6 @@
     "tag"
   ],
   "homepage": "https://github.com/tourze/twig-html-helpers",
-  "type": "library",
   "license": "MIT",
   "authors": [
     {
